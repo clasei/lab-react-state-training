@@ -1,3 +1,11 @@
+.App {
+  padding: 10px;
+}
+
+h1 {
+  color: grey;
+}
+
 button {
   margin: 5px;
   padding: 5px 10px;
