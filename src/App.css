@@ -18,17 +18,21 @@ button {
   cursor: pointer;
 }
 
-.counter-container {
+.counter-container, .dice-container {
   display: flex;
   direction: row;
   justify-content: space-around;
   align-items: center;
   border: solid 2px grey;
-  border-radius: 5px;
-  width: 140px;
-  height: 60px;
-  margin-top: 15px;
+  border-radius: 15px;
+  margin-top: 25px;
   padding: 5px;
+  font-size: 17px;
+}
+
+.counter-container {
+  width: 150px;
+  height: 60px;
 }
 
 .counter-button {
@@ -44,5 +48,11 @@ button {
   border-radius: 5px;
   width: 100px;
   height: 100px;
-  margin-top: 15px;
+  margin-top: 25px;
+}
+
+.dice-container {
+  width: 120px;
+  height: 120px;
+  border-color: rgb(255, 238, 0);
 }
