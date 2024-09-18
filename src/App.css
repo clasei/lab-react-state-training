@@ -56,3 +56,28 @@ button {
   height: 120px;
   border-color: rgb(255, 238, 0);
 }
+
+.carousel-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  margin-top: 25px;
+}
+
+.carousel-container button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #5aaaff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.carousel-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

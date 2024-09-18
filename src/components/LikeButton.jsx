@@ -26,7 +26,7 @@ function LikeButton() {
 
       <button onClick={handleLikeLeft}
         style={{ backgroundColor: colorsArr[colorArrIndexLeft],
-        color: colorsArr[colorArrIndexLeft] === "yellow" ? "black" : "white" }}> {/* changes font color only with yello bg*/}
+        color: colorsArr[colorArrIndexLeft] === "yellow" ? "black" : "white" }}> {/* changes font color only with yello bg */}
         {likesLeft} Likes
       </button>
       <button onClick={handleLikeRight}
