@@ -15,10 +15,10 @@ function Counter() {
   }
 
   return (
-    <div id='counter-container'>
-      <button onClick={handleDecrease}> - </button>
+    <div className='counter-container'>
+      <button className='counter-button' disabled={counter <= 0 ? true : false} onClick={handleDecrease}> - </button>
       <h2>{counter}</h2>
-      <button onClick={handleIncrease}> + </button>
+      <button className='counter-button' onClick={handleIncrease}> + </button>
     </div>
   )
 }
